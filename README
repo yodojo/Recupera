@@ -1,0 +1,32 @@
+ nossa grandiosa Professora Cris no último aquecimento ficou conhecida como a grande maquiavélica do IME. Para quem não está a par do assunto, a digníssima professora exigiu que os alunos formassem uma fila em ordem lexicográfica (pelo nome) com no máximo k permutações. Isto fez com que muitos alunos nem sequer entrassem na sala para fazer a prova. No entanto, nesta seletiva ela resolveu se redimir perante seus alunos, e resolveu aplicar um probleminha para recuperação.
+
+ Sua tarefa, mesmo não tendo sido reprovado, é dado uma sequência de n inteiros a1, a2, .., an, onde -30 <= aj <= 30 para j = 1, 2, .., n, imprima, se existir, um inteiro ak tal que ak = a1 + a2 + .. + ak-1. Se houver mais de um inteiro que satisfaça esta condição, imprima o que aparece primeiro na seqüência.
+
+ Cris: "Meninos, lembrem-se que a soma de nenhum número é zero! Tá?"
+
+ Entrada
+
+ A entrada é composta de diversas instâncias. A primeira linha de cada instância consiste em um inteiro n (1 <= n <= 100) indicando o número de inteiros da linha seguinte devem ser processados.
+
+ A entrada termina com final de arquivo.
+
+ Saída
+
+ Para cada instância, você deverá imprimir um identificador Instancia k, onde k é o número da instância atual. Na linha seguinte imprima o inteiro que satisfaça a restrição descrita acima. Caso não exista tal inteiro imprima nao achei.
+
+ Após cada instância imprima uma linha em branco.
+
+ Exemplo
+
+ Entrada:
+ 1
+ 0
+ 7
+ 1 2 3 4 5 6 7
+
+ Saída:
+ Instancia 1
+ 0
+
+ Instancia 2
+ 3
